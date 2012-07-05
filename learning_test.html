@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Raphael Learning Test</title>
+<link rel="stylesheet" href="qunit/qunit.css" type="text/css" media="screen" />
+<style type="text/css">
+#code,#log,#toc{font-family:'Bitstream Vera Sans Mono','나눔고딕';font-size:14px;line-height:19px}
+#code{margin:10px 0;padding:10px;border:1px solid #ccc}
+#code .comment{color:green;}
+#toc{margin:0;padding:10px 30px;background:#f8f8f8;}
+#toc ol{list-style:none}
+#toc li a:link,
+#toc li a:visited,
+#toc li a:hover,
+#toc li a:active{color:#aaa;text-decoration:none}
+#toc li a.on{color:#c00;font-size:16px;font-weight:bold}
+</style>
+</head>
+<body>
+<h1 id="qunit-header">RaphaelJS Learning Test</h1>
+<div id="toc">
+<p><a href="http://raphaeljs.com/">RaphaelJS</a>의 학습 테스트입니다.<br>
+각 테스트를 순서대로 더블클릭해 열어보면, RaphaelJS의 전반적인 사용 방법을 훑어볼 수 있습니다.<br>
+시작하시려면 아래 목차를 선택하세요.</p>
+<ol>
+	<li><a href="#chap1">1.기본 도형 생성하기</a></li>
+	<li><a href="#chap2">2.스타일 설정, 도형 변형하기</a></li>
+	<li><a href="#chap3">3.애니메이션 적용</a></li>
+	<li><a href="#chap4">4.이벤트, 셋, 그 외 유용한 기능</a></li>
+	<li><a href="#chap5">5.미세하게 그리기</a></li>
+	<li><a href="#chap6">6.매트릭스 트랜스폼 활용하기</a></li>
+	<li><a href="#chap7">7.셋과 트랜스폼</a></li>
+	<li><a href="#chap8">8.성능개선</a></li>
+</ol>
+</div>
+<h2 id="qunit-banner"></h2>
+<div id="qunit-testrunner-toolbar"></div>
+<h2 id="qunit-userAgent"></h2>
+<ol id="qunit-tests"></ol>
+<div id="qunit-fixture"></div>
+ 
+<div id="canvas"></div>
+<div id="log"></div>
+<div id="code"></div>
+
+<script type="text/javascript" src="qunit/qunit.js"></script>
+<script type="text/javascript" src="lib/jquery.min.js"></script>
+<script type="text/javascript" src="lib/raphael.js"></script>
+<script type="text/javascript" src="test/raphael.test.common.js"></script>
+</body>
+</html>
